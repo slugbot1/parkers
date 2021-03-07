@@ -21,8 +21,6 @@ api = tweepy.API(auth, wait_on_rate_limit=True,
 dateTimeObj = datetime.now()
 timestampStr = dateTimeObj.strftime("%d-%b-%Y (%H:%M:%S.%f)")
 
-logging.info
-
 api.update_status("No. \n"
                       "\n\n\n\n\n\n\n\n\n"
                       "#Celtic @CelticFC #SPL #GoingFor52 \n"
